@@ -48,8 +48,13 @@ nav a {
     border-color: #c78c19;
 }
 
-.produtos h2 {
-    font-size:  30px;
+.produtos li:active {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.produtos li:hover h2 {
+    font-size:  34px;
     font-weight: bold;
 }
 
@@ -61,4 +66,16 @@ nav a {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyrirht {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
